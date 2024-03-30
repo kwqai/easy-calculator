@@ -3,7 +3,7 @@
 
 import inquirer from "inquirer";
 
-console.log("Welcome To Easy Calculator");
+//  console.log("Welcome To Easy Calculator");
 
 const answer = await inquirer.prompt([
     { message: "Enter First Number", type: "number", name: "firstNumber" },
